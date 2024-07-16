@@ -1,0 +1,353 @@
+/* ここから下に記載していく */
+body{
+    width: 1200px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(255, 253, 244);
+    text-align: center;
+    line-height:30px;
+    
+}
+
+.logo{
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+}
+
+.navi{
+    font-size: 21px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.headergazou{
+    width: 1200px;
+    height:500px;
+    background-image: url(/img/mainbg.png);
+    background-size: auto;
+}
+
+.catchcopy1{
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 200px;
+    font-weight: bold;
+    
+}
+
+.catchcopy2{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+h2.about{
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom:  30px;
+    font-weight: bold;
+    color: #ffc400;
+}
+
+h3.about{
+    font-size: 18px;
+    padding-bottom: 60px;
+
+}
+
+.bunsyouhaba{
+    margin-bottom: 40px;
+}
+
+.bunsyouhaba2{
+    margin-bottom: 80px;
+}
+.gazouhaba{
+    width: 300px;
+    float: left;
+	display: block;
+    
+}
+
+h2.course{
+    /* ここのtop機能してないからあとで見返す */
+    padding-top: 258.69px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.bunsyouhaba3{
+    margin-bottom: 60px;
+}
+
+.courseleft{
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+}
+
+.courseright{
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+}
+
+.coursewordright{
+    width: 430px;
+    text-align: left;
+    margin-right: 120px;
+    margin-left:  50px;
+}
+
+.coursewordleft{
+    width: 430px;
+    text-align: left;
+    margin-left: 120px;
+    margin-right:  50px;
+}
+
+.nankairight{
+    width: 430px;
+    margin-right: 120px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 95px;
+    
+}
+
+.nankaileft{
+    width: 430px;
+    margin-right: 120px;
+    /* インラインで並べてるの怪しい */
+    /* インライン以下が並ぶから、左に画像ないときはインラインいらない？ */
+    /* 画像と文章をセットでdivしてそれを三つ作る？ */
+    text-align: left;
+    margin-bottom: 95px;
+    
+}
+
+h2.nankai{
+    font-size: 24px;
+    padding-top: 95px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+img.course{
+    width: 600px;
+}
+
+h2.news{
+    font-size: 24px;
+    padding-top:  1298.47px;
+    font-weight: bold;
+    color: #ffc400;
+   
+}
+
+p.news{
+    margin-top: 30px;
+    margin-bottom:  60px;
+}
+
+.container2{
+    display: inline-flex;
+    flex-direction: row; 
+    font-size: 14px; 
+    gap: 30px;   
+}
+
+.rounded-box{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(255, 238, 0);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+h2.more{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2.access{
+    font-size: 24px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.googlemap{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container3{
+    display: inline-flex;
+    flex-direction: row;    
+    
+}
+
+.container4{
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    
+}
+
+.accessamikake{
+    background-color: aliceblue;
+}
+
+h2.contact{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.contact1{
+    margin-bottom: 60px;
+}
+
+.contact2{
+    margin-bottom: 30px;
+}
+
+.contact3{
+    margin-bottom: 70px;
+}
+
+.contact-table{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.th{
+    border: 1px solid #ccc;
+}
+
+.contact-item,
+.contact-body {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.contact-item {
+  text-align: left; /* テキスト左寄せ */
+  width: 30%; /* 横幅30%指定（グレーの背景色部分） */
+  border-left: none;
+  border-right: none;
+}
+
+input[type="checkbox"] {
+    border-radius: 0;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+
+  input[type="checkbox"] {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #bfbfbf;
+    vertical-align: -5px;
+  }
+  
+  input[type="checkbox"]:checked:before {
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    transform: rotate(50deg);
+    width: 4px;
+    height: 8px;
+    border-right: 2px solid #ffc400;
+    border-bottom: 2px solid #ffc400;
+    content: '';
+  }
+
+  p.form-check{
+    text-align: left;
+  }
+
+  .form-text1{
+    width: 328px;
+    height: 36px;
+    background-color: rgb(255, 253, 244);
+  }
+
+  .form-text2{
+    width: 328px;
+    height: 108px;
+    background-color: rgb(255, 253, 244);
+  }
+
+  .form-select{
+    width: 337px;
+    height: 40px;
+    background-color: rgb(255, 253, 244);
+    
+  }
+  
+  .rounded-box2{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(255, 238, 0);
+    margin-top: 30px;
+    margin-bottom: 140px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.footer{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color:#707070;
+   color: white
+}
+
+.fadeIn{
+    animation-name:fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeInAnime{
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
+
+
+
+
